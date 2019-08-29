@@ -1,0 +1,73 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About
+  url: "/about/"
+  side: left
+
+- title: "Contents"
+  url: "/contents/"
+  side: left
+  dropdown:
+  - title: "Contents by Date"
+    url: "/contents"
+  - title: "Status by Week"
+    url: "/weeks/"
+  - title: "Features"
+    url: "/features/"
+  - title: "Templates"
+    url: "/templates/"
+  - title: "Advertisements"
+    url: "/advertisements"
+
+- title: "How To"
+  url: "/how-to/"
+  side: left
+  dropdown:
+  - title: "Microfilm Instructions"
+    url: "/how-to/microfilm-instructions"
+  - title: "TEI-XML Instructions"
+    url: "/how-to/tei-xml-instructions"
+  - title: "Templating Instructions"
+    url: "/how-to/templating-instructions"
+  - title: "GitHub Instructions"
+    url: "/how-to/github-instructions"
+  - title: "OCR Instructions"
+    url: "/how-to/OCR-instructions"
+  - title: "Querying Instructions"
+    url: "/how-to/query-instructions"
+  - title: "Data Visualization Instructions"
+    url: "/how-to/visualization-instructions"
+  - title: "Blogging Instructions"
+    url: "/how-to/blogging-instructions"
+
+- title: Resources
+  url: "/resources/"
+  side: left
+  dropdown:
+  - title: "Syllabus"
+    url: "https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing"
+  - title: "GitHub"
+    url: "https://github.com/dig-eg-gaz"
+  - title: "Schema"
+    url: "/schema/"
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

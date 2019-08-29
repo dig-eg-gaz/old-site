@@ -1,0 +1,795 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Querying the digital Egyptian Gazette</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
+	<script src="/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="A daily newspaper from turn-of-the-century Egypt, in marked up full text.">
+  	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
+	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
+	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
+	
+	
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Querying the digital Egyptian Gazette">
+	<meta property="og:description" content="A daily newspaper from turn-of-the-century Egypt, in marked up full text.">
+	<meta property="og:url" content="/how-to/query-instructions">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Digital Egyptian Gazette">
+	
+	
+
+
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="HanleyWill">
+	<meta name="twitter:creator" content="HanleyWill">
+	<meta name="twitter:title" content="Querying the digital Egyptian Gazette">
+	<meta name="twitter:description" content="A daily newspaper from turn-of-the-century Egypt, in marked up full text.">
+	
+	
+
+	<link type="text/plain" rel="author" href="/humans.txt">
+
+	
+
+	
+
+	<link rel="icon" sizes="32x32" href="/assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="/assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple-touch-icon-114x114-precomposed.png">
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/apple-touch-icon-76x76-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple-touch-icon-72x72-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">	
+
+	<meta name="msapplication-TileImage" content="/assets/img/msapplication_tileimage.png">
+
+	<meta name="msapplication-TileColor" content="#fabb00">
+
+
+	
+
+</head>
+<body id="top-of-page" class="post">
+	
+	<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="" class="icon-tree"> Digital Egyptian Gazette</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="/contact/">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="/about/">About</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="/contents/">Contents</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="/contents">Contents by Date</a></li>
+                    
+
+                      
+
+                      <li><a href="/weeks/">Status by Week</a></li>
+                    
+
+                      
+
+                      <li><a href="/features/">Features</a></li>
+                    
+
+                      
+
+                      <li><a href="/templates/">Templates</a></li>
+                    
+
+                      
+
+                      <li><a href="/advertisements">Advertisements</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="/how-to/">How To</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="/how-to/microfilm-instructions">Microfilm Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/tei-xml-instructions">TEI-XML Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/templating-instructions">Templating Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/github-instructions">GitHub Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/OCR-instructions">OCR Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/query-instructions">Querying Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/visualization-instructions">Data Visualization Instructions</a></li>
+                    
+
+                      
+
+                      <li><a href="/how-to/blogging-instructions">Blogging Instructions</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="/resources/">Resources</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank">Syllabus</a></li>
+                    
+
+                      
+
+                      <li><a href="https://github.com/dig-eg-gaz" target="_blank">GitHub</a></li>
+                    
+
+                      
+
+                      <li><a href="/schema/">Schema</a></li>
+                    
+
+                      
+
+                      <li><a href="/changelog/">Changelog</a></li>
+                    
+
+                      
+
+                      <li><a href="/roadmap/">Roadmap</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="" title="Digital Egyptian Gazette – A full-text paper from 1905">
+				<img src="/assets/img/logo.jpg" alt="Digital Egyptian Gazette – A full-text paper from 1905">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					
+					<h1>Querying the digital Egyptian Gazette</h1>
+				</div>
+			</header>
+
+
+			
+
+			<div itemprop="articleSection">
+			<h2 id="objective">Objective</h2>
+<p>We are digitizing the <em>Egyptian Gazette</em> to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for “London” in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for “London” in specific parts of the newspaper: page 3, for example, or local news. The two main query (search) languages for XML are <a href="https://www.w3.org/TR/xpath-datamodel-30/">XPath and XQuery</a>. These instructions focus on XPath as used in the Oxygen XML editor.</p>
+
+<div class="panel radius">
+  <p id="toc"><strong>Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#objective" id="markdown-toc-objective">Objective</a></li>
+  <li><a href="#setting-up-queries-in-the-oxygen-xml-editor" id="markdown-toc-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</a>    <ul>
+      <li><a href="#searching-a-single-file" id="markdown-toc-searching-a-single-file">Searching a single file</a></li>
+      <li><a href="#searching-more-than-one-file" id="markdown-toc-searching-more-than-one-file">Searching more than one file</a></li>
+      <li><a href="#searching-the-full-contents-of-the-digital-egyptian-gazette" id="markdown-toc-searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</a></li>
+      <li><a href="#basic-xpath-searches" id="markdown-toc-basic-xpath-searches">Basic XPath searches</a></li>
+    </ul>
+  </li>
+  <li><a href="#basic-principles-of-xpath" id="markdown-toc-basic-principles-of-xpath">2. Basic principles of XPath</a>    <ul>
+      <li><a href="#where-searches" id="markdown-toc-where-searches">“Where” searches</a></li>
+      <li><a href="#what-searches" id="markdown-toc-what-searches">“What” searches</a></li>
+    </ul>
+  </li>
+  <li><a href="#navigating-the-tree" id="markdown-toc-navigating-the-tree">3. Navigating the tree</a>    <ul>
+      <li><a href="#search-using-xmlid-or-feature" id="markdown-toc-search-using-xmlid-or-feature">Search using xml:id or feature</a></li>
+    </ul>
+  </li>
+  <li><a href="#working-with-tables" id="markdown-toc-working-with-tables">4. Working with tables</a></li>
+  <li><a href="#recipe-book" id="markdown-toc-recipe-book">5. Recipe book</a>    <ul>
+      <li><a href="#searching-for-instances-of-particular-words" id="markdown-toc-searching-for-instances-of-particular-words">Searching for instances of particular words</a></li>
+      <li><a href="#counting-instances" id="markdown-toc-counting-instances">Counting instances</a></li>
+      <li><a href="#item-length" id="markdown-toc-item-length">Item length</a></li>
+      <li><a href="#exclude-sectiondivpage" id="markdown-toc-exclude-sectiondivpage">Exclude Section/div/Page</a></li>
+      <li><a href="#search-for-one-word-but-not-another" id="markdown-toc-search-for-one-word-but-not-another">Search for one word but not another</a></li>
+    </ul>
+  </li>
+  <li><a href="#searching-with-regular-expressions" id="markdown-toc-searching-with-regular-expressions">6. Searching with regular expressions</a></li>
+  <li><a href="#export-and-manipulate-results" id="markdown-toc-export-and-manipulate-results">7. Export and manipulate results</a></li>
+  <li><a href="#xquery" id="markdown-toc-xquery">8. XQuery</a></li>
+  <li><a href="#resources" id="markdown-toc-resources">9. Resources</a></li>
+</ul>
+
+</div>
+
+<h2 id="setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</h2>
+
+<h3 id="searching-a-single-file">Searching a single file</h3>
+<p>Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace. This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.</p>
+
+<h3 id="searching-more-than-one-file">Searching more than one file</h3>
+<p>Open all of the files that you wish to search, then click on Find/Replace in Files:
+<img src="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/find-replace-oxygen.png?raw=true" alt="find replace oxygen" />
+This will open a dialogue box. Under “Scope,” choose “All opened files,” then proceed with your search.</p>
+
+<h3 id="searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</h3>
+<p>To search everything in the <a href="https://github.com/dig-eg-gaz/content">Digital Egyptian Gazette content repository</a>, under Find/Replace in Files &gt; Scope, choose “Specified path,” then navigate to the location where you’ve cloned your fork of the content repository. For more information about how to find this location, consult the <a href="https://dig-eg-gaz.github.io/how-to/github-instructions/">Github tutorial</a>.</p>
+
+<h3 id="basic-xpath-searches">Basic XPath searches</h3>
+<p>To search directly with XPath, locate the XPath query box near the top left.
+<img src="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/xpath-query-box-oxygen.png?raw=true" alt="xpath query box oxygen" />
+The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:
+- a list of all the “divs” in your file: <code class="highlighter-rouge">//div</code>
+- a list of all the item-type divs in your file: <code class="highlighter-rouge">//div[@type="item"]</code>
+- a list of all the item-type divs in your file containing the word “cotton”: <code class="highlighter-rouge">//div[@type="item"][contains(., 'cotton')]</code>
+- all tagged names of persons or places in the files: <code class="highlighter-rouge">//persName</code> or <code class="highlighter-rouge">//placeName</code></p>
+
+<h2 id="basic-principles-of-xpath">2. Basic principles of XPath</h2>
+<p>XPath asks you to do two things: specify <strong>where</strong> you want to search, and specify <strong>what</strong> you want to search for. An XPath query is a series of terms (words) separated by slashes (/) and other punctuation. For example:</p>
+
+<p><code class="highlighter-rouge">//div[@type="section"]/div/p[contains(., 'cotton')]</code></p>
+
+<h3 id="where-searches">“Where” searches</h3>
+<p>We use XML to structure our issues of the <em>Egyptian Gazette</em> by page, section, item, and so on. For example, we use nesting pairs of tags to put <code class="highlighter-rouge">&lt;div type="item"&gt; &lt;/div&gt;</code> inside <code class="highlighter-rouge">&lt;div type="section"&gt; &lt;/div&gt;</code>, and <code class="highlighter-rouge">&lt;div type="section"&gt; &lt;/div&gt;</code> inside <code class="highlighter-rouge">&lt;div type="page"&gt; &lt;/div&gt;</code>.</p>
+
+<p>This structure is commonly described as a “tree.” The root is the issue, which branches into six or eight pages, and each page branches into sections and items and paragraphs.</p>
+
+<p>An XPath query shows the tree parts separated slashes, starting from root and heading towards the branches, like so:</p>
+
+<p><code class="highlighter-rouge">//div[@type="page"]/div[@type="section"]/div[@type="item"]/p</code></p>
+
+<p>A double slash (<strong>//</strong>) tells the computer to look anywhere in the document for the item that comes next. A single slash (<strong>/</strong>) tells the computer to look only one level up the tree. What difference does this make?</p>
+
+<ul>
+  <li><code class="highlighter-rouge">//div//head</code> would return any headline in any div in the whole document. This would not be a very good search, because it would return a huge number of results.</li>
+  <li><code class="highlighter-rouge">//div/div/div/div/head</code> would return any paragraph that is inside four divisions (for instance, a paragraph in an item in a section in a page). This would return fewer results.</li>
+</ul>
+
+<p>The best way to say exactly where you want to look is by using <strong>attributes</strong>. These are contained in square brackets. For example, if you want to search for the headlines within page 1 only, you would say <code class="highlighter-rouge">//div[@type="page"][@n="1"]//head</code>. What goes in the square brackets is the attributes you put in the <code class="highlighter-rouge">&lt;div&gt;</code> tag when you’re encoding the issues.</p>
+
+<p>With a little practice, you’ll learn to search for results only in the relevant parts of the newspaper.</p>
+
+<h3 id="what-searches">“What” searches</h3>
+<p>After you tell XPath <em>where</em> you want it to search, you can tell it <em>what</em> you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add <code class="highlighter-rouge">[contains(., "searchtext")]</code> to the end of your search, putting your search word(s) between the quotation marks. For example, <code class="highlighter-rouge">//div[contains(., "plague")]</code> will return all divs that contain the word “plague.” Note that this search is case sensitive, and will not return “PLAGUE” and “Plague.” To remedy this ,use the <code class="highlighter-rouge">matches</code> function with the <code class="highlighter-rouge">'i'</code> flag, which makes the search case insensitive: <code class="highlighter-rouge">//div[matches(.,'the plague', 'i')]</code>.</p>
+
+<p>You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want
+- <code class="highlighter-rouge">count()</code> – how many of these things are there?
+- <code class="highlighter-rouge">string()</code> – what is the string of text this thing contains?
+- <code class="highlighter-rouge">number()</code> – what number is found on this branch?</p>
+
+<h2 id="navigating-the-tree">3. Navigating the tree</h2>
+<p>You can navigate around the tree by using commands like <code class="highlighter-rouge">parent::</code> or <code class="highlighter-rouge">following-sibling::</code> instead of the slash. These will move you up and down the tree.</p>
+
+<p>For example:
+- Return all datelines contained in a “wireReport” div type: <code class="highlighter-rouge">//div[@type="wireReport"]/parent::div//dateline</code>
+- Return all placeNames in wireReports: <code class="highlighter-rouge">//div[@type="wireReport"]/parent::div//dateline//placeName</code></p>
+
+<h3 id="search-using-xmlid-or-feature">Search using xml:id or feature</h3>
+<p>Many ads, templates, and sections have <code class="highlighter-rouge">xml:id</code> or <code class="highlighter-rouge">feature</code> tags embedded in them. These are meant to simplify your search. For features, use <code class="highlighter-rouge">//div[@feature="shippingMovements"]</code>. For tables, use <code class="highlighter-rouge">//table[@xml:id="deg-ta-cppa01"]</code>.</p>
+
+<h2 id="working-with-tables">4. Working with tables</h2>
+<p>Tables are a powerful part of the XML-encoded <em>Egyptian Gazette</em>. XPath gives us tools to return precise parts of the information these tables contain. For example:
+- return the text contained in the cell after a cell containing the text “P.T.” <code class="highlighter-rouge">//table//cell[contains(.,'P.T.')]/following-sibling::cell[1]/text()</code>. Does not work for numbers, it seems.
+- return the number contained in the cell after a cell containing the text “Augment.” <code class="highlighter-rouge">//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/number()</code>. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).
+- return the string contained in the cell after a cell containing the text “Augment.” <code class="highlighter-rouge">//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/string()</code>
+- return the string text of the first paragraph of the div with the heading “MARCHE DE MINET” <code class="highlighter-rouge">//div//head[contains(.,'MARCHE DE MINET')]/following-sibling::p[1]/string()</code>
+- return the value of the “when” attribute of dates in the third line of the Orient-Royal Mail Line ad: <code class="highlighter-rouge">//div[@xml:id="deg-ad-orm01"]//head/following-sibling::p[3]/date/@when</code></p>
+
+<p>An example of working your way through table cells, looking at prices for cotton:</p>
+
+<ul>
+  <li>This query will look at all tables and return the value in the fourth cell to the right of the cell containing the word “Cotton”: <code class="highlighter-rouge">//table//cell[contains(.,'Cotton')]/following-sibling::cell[4]</code></li>
+  <li>This query will look at the “Coton” table (which has an xml:id of “deg-ta-cotn01”), and return the value in the cell to the right of the cell containing the word “Russie”:  <code class="highlighter-rouge">//table[@xml:id="deg-ta-cotn01"]//cell[contains(.,'Russie')]/following-sibling::cell[1]</code></li>
+</ul>
+
+<h2 id="recipe-book">5. Recipe book</h2>
+<p>The possibilities are endless. Here are some samples.</p>
+
+<h3 id="searching-for-instances-of-particular-words">Searching for instances of particular words</h3>
+<ul>
+  <li>Return all placename items that contain the word “Aden”: <code class="highlighter-rouge">//placeName[contains(.,'Aden')]</code></li>
+</ul>
+
+<h3 id="counting-instances">Counting instances</h3>
+<ul>
+  <li>Count the number of items containing the term ‘native’: <code class="highlighter-rouge">count(//div[contains(., 'native')])</code></li>
+  <li>count the number of ads (divs) on page 1 (div n=”1”): <code class="highlighter-rouge">count(//div[@n="1"]//div)</code></li>
+  <li>count the number of paragraphs in the division whose heading contains “MARCHE DE MINET”: <code class="highlighter-rouge">count(//div/head[contains(.,'MARCHE DE MINET')]/following-sibling::p)</code></li>
+</ul>
+
+<h3 id="item-length">Item length</h3>
+<ul>
+  <li>Find all paragraphs longer than 5000 characters: <code class="highlighter-rouge">//p[string-length() &gt; 5000]</code></li>
+</ul>
+
+<h3 id="exclude-sectiondivpage">Exclude Section/div/Page</h3>
+
+<ul>
+  <li>Search all the divs after Page 1: <code class="highlighter-rouge">//div[not(descendant::div[@n="1"]) and not(ancestor-or-self::div[@n="1"])]</code></li>
+</ul>
+
+<h3 id="search-for-one-word-but-not-another">Search for one word but not another</h3>
+
+<ul>
+  <li>Search for paragraphs containing the word “theatre” but not the word “performance”: <code class="highlighter-rouge">//p[contains(.,'theatre')]/text() | //p[contains(.,'theatre')]/*[not(contains(.,'performance'))]/text()</code></li>
+</ul>
+
+<h2 id="searching-with-regular-expressions">6. Searching with regular expressions</h2>
+<p>It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. <!--- explain further ---></p>
+
+<h2 id="export-and-manipulate-results">7. Export and manipulate results</h2>
+<p>Right click on results, then export file. You can then clean up these results with regular expressions to remove the parts you don’t want. After this, you can work with the results in a spreadsheet.</p>
+
+<h2 id="xquery">8. XQuery</h2>
+<p>More complex querying can be accomplished using XQuery.</p>
+
+<p>Example, returning the date of every issue with a page 7:
+<code class="highlighter-rouge">for $a in collection("file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes")
+where $a//*:div[@n="7"]
+return $a//*:bibl/*:date</code></p>
+
+<p>Identify six versus eight page issues:
+<code class="highlighter-rouge">for $a in collection("file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes")
+return if ($a//*:div[@n="7"])
+then &lt;eight-page&gt;{data($a//*:bibl/*:date)}&lt;/eight-page&gt;
+else &lt;six-page&gt;{data($a//*:bibl/*:date)}&lt;/six-page&gt;</code></p>
+
+<h2 id="resources">9. Resources</h2>
+<ul>
+  <li><a href="http://www.w3schools.com/xml/xsl_functions.asp">XPath functions list</a></li>
+  <li><a href="https://www.w3.org/TR/2010/REC-xpath-functions-20101214/#func-number">W3C XPath functions list</a></li>
+  <li><a href="http://www.w3schools.com/xml/xpath_intro.asp">XPath tutorial</a></li>
+  <li>Got a question or comment? File an issue <a href="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/_pages/how-to/query-instructions.md">here</a>.</li>
+</ul>
+
+			</div>
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              A daily newspaper from turn-of-the-century Egypt, in marked up full text.
+              <a href="/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href=""  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+              
+                <h5 class="shadow-black">Credits</h5>
+              
+            
+              
+            
+              
+            
+
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href=""  title=""></a>
+                </li>
+            
+              
+                <li >
+                  <a href="http://www.lib.fsu.edu/" target="_blank"  title="FSU Libraries">FSU Libraries</a>
+                </li>
+            
+              
+                <li >
+                  <a href="https://github.com/mrmiguez/" target="_blank"  title="Matthew Miguez">Matthew Miguez</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created by <a href="http://nationality-history.info/">Will Hanley</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="http://github.com/dig-eg-gaz" target="_blank" class="icon-github" title="Code and more..."></a></li>
+            
+              <li><a href="http://twitter.com/HanleyWill" target="_blank" class="icon-twitter" title="Will Hanley on Twitter"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("https://dig-eg-gaz.github.io/images/front-page.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("https://dig-eg-gaz.github.io/images/front-page.jpg", {fade: 700});
+</script>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60112281-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+

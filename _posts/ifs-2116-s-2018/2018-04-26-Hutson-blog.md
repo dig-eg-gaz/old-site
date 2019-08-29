@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: "Adam Hutson:
+subheadline: "Adam Hutson"
 title: "Musical Theater"
 teaser: "Was Egyptian Theater in 1907 a respectable profession? The Egyptian Gazette dives deeper into this question."
 date: 2018-04-26

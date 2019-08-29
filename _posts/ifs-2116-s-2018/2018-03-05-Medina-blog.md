@@ -5,13 +5,13 @@ title: "The Cotton Industry"
 date: 2018-03-05
 author: tiffanymedina
 tags:
- - Cotton
- - Egypt
- - Textiles
- categories:
+  - Cotton
+  - Egypt
+  - Textiles
+categories:
    - curiosities
- header: no
- image:
+header: no
+image:
    title: blog-images/EgyptianCottonField.jpg
    thumb: blog-images/EgyptianCottonField.jpg
    homepage: blog-images/EgyptianCottonField.jpg

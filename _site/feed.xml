@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="/old-site/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="/old-site/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Digital Egyptian Gazette</title>
 		<description>A daily newspaper from turn-of-the-century Egypt, in marked up full text.</description>
-		<link>/</link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>/old-site/</link>
+		<atom:link href="/old-site/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Fire in the Night</title>
-				<link>/curiosities/Hernandez-A-Strange-Fascination/</link>
+				<link>/old-site/curiosities/Hernandez-A-Strange-Fascination/</link>
 				<pubDate>Sun, 06 May 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;Often in the Egyptian Gazette fire is mentioned as having caused the death of a resident or the destruction of significant property. On January 4th, 1907 for example, the Gazette reports a large fire on a gunwharf that caused thousands of pounds of goods to be destroyed, officially estimated at a current value of 250,000 British pounds.&lt;/p&gt;
 
@@ -20,12 +20,12 @@
 
 &lt;p&gt;Because the fire fighting techniques of the day were not entirely effective, as realized in the above example, the explicit, long term, and life threatening effects of fire were a necessary understanding among the people of Alexandria in those years, and the Gazette provided consistent documentation to serve that purpose.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/Hernandez-A-Strange-Fascination/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/Hernandez-A-Strange-Fascination/</guid>
 			</item>
 		
 			<item>
 				<title>Can women be happy without men?</title>
-				<link>/curiosities/sonali-pustam-blog/</link>
+				<link>/old-site/curiosities/sonali-pustam-blog/</link>
 				<pubDate>Thu, 03 May 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;I found this article on women and marriage while finding articles for my analysis project. My project was on wedding fashion, and this article talks about how women don’t consider marrying a man the ultimate way to get a happy life anymore. The writer of this article is very angry about it, saying “Where else [women’s papers] would anyone dare to imply that woman was sufficiently idiotic to believe that marriage “of itself alone” guaranteed anything?” I honestly kind of thought this article was funny. It was just funny to see the writer get so worked up they had to write an article about it that is mostly made up of quotes and not a lot of their own thoughts (pretty bad journalism if you ask me).&lt;/p&gt;
 
@@ -35,12 +35,12 @@
 
 &lt;p&gt;When women are treated like this by men in newspaper articles, its really no wonder why they create their own newspapers to say that “it is possible to be as happy without a man’s love as with it.”&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/sonali-pustam-blog/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/sonali-pustam-blog/</guid>
 			</item>
 		
 			<item>
 				<title>Mistreatment or misunderstanding?</title>
-				<link>/curiosities/amyleebrown-blog/</link>
+				<link>/old-site/curiosities/amyleebrown-blog/</link>
 				<pubDate>Wed, 02 May 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;Upon visiting the mosque at the University of al Azhar, Mr. Sheldon Amos, judge of the Native Court, claims that he was met with “considerable rudeness” on behalf of the students there. This incident caused the chancellor of the university to face repercussions from the government, being required to implement a new system for visitors at the institution.&lt;/p&gt;
 
@@ -57,12 +57,12 @@
 - &lt;a href=&quot;https://www.vqronline.org/essay/mixed-courts-egypt&quot;&gt;https://www.vqronline.org/essay/mixed-courts-egypt&lt;/a&gt;
 - &lt;a href=&quot;http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-30403;jsessionid=848062D8750262DB8B32285B5E341BE5&quot;&gt;Dictionary of National Biography&lt;/a&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/amyleebrown-blog/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/amyleebrown-blog/</guid>
 			</item>
 		
 			<item>
 				<title>Marriage &amp; Divorce</title>
-				<link>/curiosities/jarmon-blog/</link>
+				<link>/old-site/curiosities/jarmon-blog/</link>
 				<pubDate>Mon, 30 Apr 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;For my blog post, I chose to talk about the topic of Marriage &amp;amp; Divorce in the year of 1907, around the month August. I was particularly intrigued by the emphasis on marriage being placed in the Egyptian Gazette newspaper which is opposed to what we see in these modern times. One specific section in my reading that gathered my interest was titled “Alexandria Merchant Divorce” published on August 6, 1907.&lt;/p&gt;
 
@@ -72,34 +72,34 @@
 
 &lt;p&gt;In reference to this article, I found another interesting topic from the “Egyptian Gazette” in &lt;a href=&quot;https://dig-eg-gaz.github.io/curiosities/cooper-wife-murder/&quot;&gt;another blog post&lt;/a&gt; about a crazy man killing his wife with an unusual weapon. Although there is no reason for his crazy acts, he committed the crime from speculations that his wife was cheating on him. The magnitude of this article was extremely huge enough to reach the newspaper because people thought the city should be aware of this person and who he is. This article correlated to mine because there was suspicion of cheating in both marriages where the results ended up tragic.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/jarmon-blog/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/jarmon-blog/</guid>
 			</item>
 		
 			<item>
 				<title>Musical Theater</title>
-				<link>/curiosities/Hutson-blog/</link>
+				<link>/old-site/curiosities/Hutson-blog/</link>
 				<pubDate>Thu, 26 Apr 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;The musical theater correspondent surprised me with their knowledge of “Los Huguenots”. The editor well-articulated their points of the show, being critical but also giving a lot of praise. They begin with the overall thoughts, saying it began slowly, but within a little bit of time it picked up into a great show. The following paragraphs go deeper into the different performers and even the chorus. The editor praised all the performers on how well they sang, but nothing really on acting skill. They did go onto write the chorus was a failure of the performance, but did no effect the overall show.&lt;/p&gt;
 
 &lt;p&gt;I really felt as if I went to this show, hearing and visualizing the actors throughout. It was very surprising to me to see such good talent being exhibited during this time period, but also the critic who wrote the excerpt was impressive. I did not know that Egypt had such a well-rounded society with a variety of quality entertainment options. However, I do not think it is anywhere as good as what we are seeing during the present day. Today’s entertainment is a wide variety of genres, which means actors must have a wide variety of skills. One of the analysis projects titled, &lt;a href=&quot;https://dig-eg-gaz.github.io/analysis/2016/ragland-analysis&quot;&gt;“The Exploration of Musicians in Alexandria”&lt;/a&gt; agrees with this as well. Ragland, the editor writes that most of the performers were amateurs, but were still greatly supported by the community. He goes on to say that there are no negative reviews that he can find, and the “Los Huguenots” review is no different. The editor does nothing but praise the performance. One last thing I found interesting in his analysis was he said the amount of musicians in the Egyptian Gazette was outstanding. He does not give them by specific name, but mentions the sheer number that are mentioned. I related this to my article because the editor brings up several performers, probably all of the performers from that show.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/Hutson-blog/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/Hutson-blog/</guid>
 			</item>
 		
 			<item>
 				<title>Nature&#39;s Skin Food</title>
-				<link>/organic%20medicines/CastroLeyna-NaturesSkinFood/</link>
+				<link>/old-site/organic%20medicines/CastroLeyna-NaturesSkinFood/</link>
 				<pubDate>Mon, 16 Apr 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;On my Tuesday issue, I found an interesting home remedy for acne and other skin problems. It appears this is something distinct and special to Alexandria. As I was adding the advertisement for page 2 of the October 1906 issue. As a person that loves to learn about skin care and is addicted to by skin care products, this advertisement stood out to me. According to the advertisement, the cream derives from Icilma Natural Water, but most have named it Nature’s Skin Food. From the Icilma Natural water a cream is produced called the Icilma Flour Cream. It is described as the being a no grease or oil cream which I find amazing because most skin care products are filled with oil that, as a result, often causes the skin to produce more oil. This is especially helpful to people that have oily skin which leads them to have problematic skin. The advertisement states that it cleanses the pores of the skin and make it pearly white. I think the Icilma Flour Cream could possibly have been the modern invention of acne remedies in Alexandria during the 1900s. The Icilma Flour Cream sounds like the Neutrogena or Proactive most people preferred to use for their skin problems.&lt;/p&gt;
 
 &lt;p&gt;According to &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1111/ddg.12947&quot;&gt;Back to the Roots: Dermatology in Ancient Egyptian Medicine&lt;/a&gt; in the 2016 Journal of the German Society of Dermatology, Egyptian medicine and the treatment of acute and chronic wounds and injuries such as cosmetic procedures took an important role. Additionally, it seems that another student, &lt;a href=&quot;https://dig-eg-gaz.github.io/curiosities/nunez-blogpost/&quot;&gt;Sabrina Nunez&lt;/a&gt;, also took a curious look into the Iclimia medicine and discovered that Stephen Armitage founded Iclima in 1989. Yet, it seems that herbal medicine was the best option remedy for the Egyptians seeming as the technology was not very advanced, according to the 2015 review journal &lt;a href=&quot;https://doaj.org/article/602aea8253f84a068559bb763708c006?&quot;&gt;Ancient Egyptian Medicine: A Systematic Review&lt;/a&gt;. However, there were instances of “miracle” cures and medicine like Doan’s Backache Kidney Pills, as reported by previous student &lt;a href=&quot;https://dig-eg-gaz.github.io/curiosities/Esteve-Medicine/&quot;&gt;Justin Esteve&lt;/a&gt;. Nevertheless, the medicine used in Egypt was produced in different ways and counter products such as in mineral-based compounds, set milk, honey using tropical, oral methods, according to an &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/27594551&quot;&gt;Treatment Adherence and Beliefs about Medicines among Egyptian Vitiligo Patients&lt;/a&gt; published in Dermatologic Theraphy Journal in 2016.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/organic%20medicines/CastroLeyna-NaturesSkinFood/</guid>
+				<guid isPermaLink="true">/old-site/organic%20medicines/CastroLeyna-NaturesSkinFood/</guid>
 			</item>
 		
 			<item>
 				<title>Accidental Shooting</title>
-				<link>/curiosities/Beasley-AccidentalShooting/</link>
+				<link>/old-site/curiosities/Beasley-AccidentalShooting/</link>
 				<pubDate>Mon, 16 Apr 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;On January 22nd, 1906 the Egyptian Gazette posted an article about an accidental shooting that occurred in the middle of page three.&lt;/p&gt;
 
@@ -113,12 +113,12 @@
 
 &lt;p&gt;Events like these are included all throughout the Egyptian Gazette. Page three is usually where useful and exciting information about royal families or the Khedive is placed in the newspaper. However, including comical and ridiculous stories such as the one with Mr. Sequino tells us that Egyptian journalism covered an array of topics. It also tells us that the community of Alexandria enjoyed keeping up with relevant and newly developing stories.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/Beasley-AccidentalShooting/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/Beasley-AccidentalShooting/</guid>
 			</item>
 		
 			<item>
 				<title>Is Egypt In A Bubble?</title>
-				<link>/curiosities/metallo-is-egypt-in-a-bubble/</link>
+				<link>/old-site/curiosities/metallo-is-egypt-in-a-bubble/</link>
 				<pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
 				<description>&lt;p&gt;Economies are cyclical. Fact. They will experience ups and downs. Fact.&lt;/p&gt;
 
@@ -138,12 +138,12 @@
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/blog-images/feeling-the-crisis-abroad-19070619.JPG?raw=true&quot; alt=&quot;feeling the crisis abroad 19070619&quot; /&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/metallo-is-egypt-in-a-bubble/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/metallo-is-egypt-in-a-bubble/</guid>
 			</item>
 		
 			<item>
 				<title>Advertising... Has anything really changed?</title>
-				<link>/curiosities/majonica-advertisment-has-not-changed/</link>
+				<link>/old-site/curiosities/majonica-advertisment-has-not-changed/</link>
 				<pubDate>Mon, 05 Mar 2018 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;I happen to really enjoy encoding “The Egyptian Gazette.” It is almost therapeutic. As I venture into another day of my week in January of 1907, I have become accustomed with its format, easily pulling code from other parts of the paper I, and my classmates, have already worked on.&lt;/p&gt;
 
@@ -169,19 +169,19 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/majonica-advertisment-has-not-changed/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/majonica-advertisment-has-not-changed/</guid>
 			</item>
 		
 			<item>
 				<title>A Domestic Tragedy</title>
-				<link>/curiosities/donofrio-tragedy/</link>
+				<link>/old-site/curiosities/donofrio-tragedy/</link>
 				<pubDate>Mon, 05 Mar 2018 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;This article tells the story of a divorced couple that ultimately ended in fatality. In attempts to fix his relationship, the spouse tried to convince his former wife to get back together. However, when she refused, he got angry and stabbed her multiple times. After this violent and impulsive reaction had subsided, the man realized what he had done, and thinking he had killed his spouse, he drew a revolver and shot himself dead. However, the woman simply fell unconscious and did not die.
 This story has a theme similar to Shakespeare’s &lt;em&gt;Romeo and Juliet&lt;/em&gt; pertaining to the story of a spouse thinking his partner is dead and consequentially killing himself because of that thought. It also shows that people would do anything for love, and that people act irrationally when they are put in desperate situations.&lt;/p&gt;
 
 &lt;p&gt;Also, domestic violence was not uncommon, as shown in &lt;a href=&quot;https://dig-eg-gaz.github.io/curiosities/cooper-wife-murder/&quot;&gt;Matthew Cooper’s blog post&lt;/a&gt;. Here Cooper talks about an article on a man who killed his wife with an blow to the head by a bar of iron. Although the context is different between the two instances, it is clear that abuse within marriages was not uncommon.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">/curiosities/donofrio-tragedy/</guid>
+				<guid isPermaLink="true">/old-site/curiosities/donofrio-tragedy/</guid>
 			</item>
 		
 	</channel>

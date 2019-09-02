@@ -9,17 +9,17 @@ header:
   image_fullwidth: masthead.jpg
 widget1:
   title: "Blog"
-  url: 'http://dig-eg-gaz.github.io/blog/'
+  url: '/blog/'
   image: port-skyline.jpg
   text: 'Reflections on the content of the <em>Egyptian Gazette</em>, and the work of digitization. Authored by the students in IFS 2116.'
 widget2:
   title: "Instructions"
-  url: 'http://dig-eg-gaz.github.io/how-to/'
+  url: '/how-to/'
   text: 'How to do all this stuff...'
   video: '<a href="#" data-reveal-id="videoModal"><img src="http://dig-eg-gaz.github.io/images/promo-video.png" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Contents"
-  url: 'http://dig-eg-gaz.github.io/contents/'
+  url: '/contents/'
   image: square.jpg
   text: 'Full text of the paper will slowly unroll here.'
 #
